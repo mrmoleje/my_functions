@@ -46,7 +46,7 @@ arrange.vars(my_data, c("time"=1, "date" = 2, "geog" = 3)) -> rearranged_data
 
 # Rounding
 
-# Round up - like excel. R rounds to the even number which isn;t always compatible with
+# Round up - like excel. R rounds to the even number which isn't always compatible with
 # other software when QAing. 
 
 round_up = function(x, n) {
